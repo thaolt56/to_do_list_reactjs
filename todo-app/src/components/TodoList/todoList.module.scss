@@ -1,0 +1,19 @@
+.todoList{
+    padding: 3rem;
+}
+.containerTodo{
+    max-width: 40rem;
+    height: auto;
+    padding: 2rem;
+    background: #fff;
+    //margin-left: 0;
+    //margin-right: 0;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.containerTodo h3{
+    display: block;
+    text-align: center;
+}

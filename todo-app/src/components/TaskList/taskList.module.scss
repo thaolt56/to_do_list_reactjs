@@ -1,0 +1,31 @@
+.taskContainer{
+    padding:10px 5px
+}
+.task{
+    display: flex;
+}
+.task .taskCheckbox{
+    flex: 0 0 10%;
+    max-width: 10%;
+    height: 2rem;
+    margin-top: 0.5rem;
+
+}
+.taskName{
+    flex: 0 0 70%;
+    max-width: 70%;
+    margin-top: 0.5 rem;
+    padding: 0 5px;
+    color: rgb(34, 32, 32);
+    &.taskNameDone{
+        color: rgb(61, 60, 59);
+        text-decoration: line-through;
+    }
+}
+.taskActions{
+    flex:0 0 20%;
+}
+.taskActions button{
+    padding: 0.5rem;
+    margin-right: 5px;
+}
